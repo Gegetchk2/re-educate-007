@@ -1,0 +1,50 @@
+header {
+    background-color: blue;
+    height: 400px;
+    color: white;
+    margin-top: -100px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 { 
+    padding-left: 200px;
+    padding-top: 200px;
+}
+.photos {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: -50px;
+    position: relative;
+}
+img {
+    height: 300px;
+    width: 300px;
+}
+.photo_2 {
+    margin-top: -60px;
+}
+.rectangles div{
+    width: 250px;
+    height: 60px;
+    border: none;
+    background-color: rgb(179 179 179 / 60%);
+}
+.rectangles{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    position: absolute;
+    top: 220px;
+}
+.div_2 {
+    margin-top: -90px;
+}
+p {
+    color: white;
+    width: 210px;
+    padding-left: 10px;
+    margin-top: 0px;
+}
